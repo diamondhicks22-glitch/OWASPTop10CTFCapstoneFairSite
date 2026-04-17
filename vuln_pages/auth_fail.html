@@ -11,21 +11,23 @@
 	<main>
 	<h2>What?</h2>
 	<strong>Authentication Failures</strong>
-	<p>Present when an attacker is able to make a system believe a proper user is present.</p>
+	<p>Occurs when a system does not properly verify a user's identity, allowing an attacker to gain access as a legitimate user.</p>
 	<br>
 	
 	<h2>Why?</h2>
-	<p>Most initial breaches, if not already in one of power, leads to privilege escalation. Often from guest to user to admin
-        or other layers through a system. If the flaw exists in one area is it more than likely it exists in others and
-        an attacker will take advantage of that to access and exist long term in a system.</p><br>
+	<p>Authentication weaknesses are a common entry point for attackers. Once initial access is gained, it often leads to priviledge escalation.
+		Moving from basic user or guest access to administrative control. If a flaw exists on a lower level of access, it is likely present elsewhere
+		within the system, allowing attackers to maintain long-term access.</p><br>
 	
 	<h2>How?</h2>
-	<p>Rewrite</p>
+	<p>This vulnerability occurs when authentication mechanisms are improperly implemented or enforced. Such as weak passwords, lack of validation, 
+		or missing security checks. In order to prevent this, systems should enforce strong authentication practices, including secure password handling
+		and complex password enforcement, and proper user verification, such as Multi-Factor Authentication.</p>
 
 	<h2>Further information</h2>
 	<a class="info-link" href="https://owasp.org/Top10/2025/A07_2025-Authentication_Failures/" target="_blank" rel='noopener noreferrer'>OWASP Authentication Failures</a>
 	<br>
-	<a href="/index.php">Back to Main page</a>
+	<a href="../index.html">Back to Main page</a>
 	</main>
 </body>
 </html>

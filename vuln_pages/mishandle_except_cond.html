@@ -11,23 +11,25 @@
 	<main>
 	<h2>What?</h2>
 	<strong>Mishandling of Exceptional Conditions</strong>
-	<p>An applications lack of ability to properly prevent, detect, and/or respond to improbable situations. This most commonly ends in an application
-	crashing or exposure and exploitation of other vulnerabilities.</p>
+	<p>This vulnerability occurs when an application does not properly handle unexpected or error conditions. 
+		Instead of safely managing these situations, the application may crash or behave in unintended ways.</p>
 	<br>
 	
 	<h2>Why?</h2>
-	<p>Similar to Software or Data Integrity Failures, an application crashing or failing due to being unprepared is an issue. As well as the
-	application being able to catch the errors, but expose different vulnerabilities or information. Giving away information that could
-	eventually lead to a breach and/or compromise.</p><br>
+	<p> When applications fail to handle errors correctly, they can expose sensitive information or create new 
+		opportunities for attackers. Error messages, crashes, or unexpected behavior may reveal details about 
+		the system that can be used to further exploit it.</p><br>
 	
 	<h2>How?</h2>
-	<p>Rewrite</p>
+	<p>This vulnerability occurs when applications do not properly validate inputs or handle errors and edge 
+		cases. To prevent this, systems should implement proper error handling, validate all inputs, and avoid 
+		exposing sensitive information in error messages.</p>
 
 	<h2>Further information</h2>
 	<a class="info-link" href="https://owasp.org/Top10/2025/A10_2025-Mishandling_of_Exceptional_Conditions/" target="_blank" rel='noopener noreferrer'>OWASP Mishandling of Exceptional Conditions</a>
 	<br>
 
-	<a href="/index.php">Back to Main page</a>
+	<a href="../index.html">Back to Main page</a>
 	</main>
 </body>
 </html>
