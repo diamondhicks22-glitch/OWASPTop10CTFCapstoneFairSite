@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="sitecss.css">
 </head>
+<div class="site-header">
+    <img src="assets/WAVLCapstoneWhiteHeader.svg" class="logo header">
+</div>
 <div class="section-split">
 
     <div class="buttons-nav">
@@ -42,17 +45,67 @@
     </div>
 
     <div class="main-content">
-        <p>Temporary Page for Capstone Sight.</p>
-        <p>Application introduction</p>
-        <br>
-        <p>Logo here</p>
-        <p>Installation instructions</p>
-        <br>
-        <p>Video placeholder</p>
-        <br>
-        <p>Rights of use</p>
-        <p>Mini about</p>
-    </div>
+        <div class="main-inner">
+            <div class="fluff-text site">
+                <h2>About</h2>
+                <p>WAVL (Web Application Vulnerability Lab) is an interactive educational environment designed to
+                    demonstrate common web application vulnerabilities based on the OWASP Top Ten (2025). The platform allows
+                    users to explore how these vulnerabilities work and understand how they can be prevented in a real-world applicaiton</p>
+                <br>
+                <p>The lab is distributed as a preconfigured virtual machine to ensure a consistent and safe environment. This allows
+                    user to interact with an intentionally vulnerable systems without risking their own personal machine or larger network. Using
+                    localhost in order to keep the system isolated from the outside. The virtual machine also allows removes the need for a complex
+                    installation and configuration.</p>
+                <br>
+                <p>
+                    WAVL is designed for students and beginners in cybersecurity, as well as anyone interested in learning how web vulnerabilities
+                    function and how to secure against them.</p>
+            </div>
+            <div class="fluff-text site">
+                <h2>Installation</h2>
+                <ul>
+                    <li><p>Ensure a form of hypervisor is installed on your machine, free options include <a href="https://www.oracle.com/virtualization/virtualbox/" target='_blank' rel='noopener noreferrer'>Oracle VirtualBox,</a>
+                    <a href="https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion" target='_blank' rel='noopener noreferrer'>VMware Workstation Pro,</a> or
+                    <a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/install-hyper-v?tabs=powershell&pivots=windows" target='_blank' rel='noopener noreferrer'>Hyper-V (Windows only).</a>
+                    </p>
+                    <p>Only one hypervisor should be active at a time</p>
+                    </li>
+                    <li>
+                        <p>Download the virtual machine from the <a href="https://drive.google.com/drive/folders/1kI1M6oUScuLeLakMTziUkeQZGeN7aBah?usp=sharing" target='_blank' rel='noopener noreferrer'>Google Drive</a></p>
+                        <p>Files within the virtual machine can be viewed in the <a href="https://github.com/diamondhicks22-glitch/OWASPTop10CTFCapstoneVM/releases/tag/Releases" target='_blank' rel='noopener noreferrer'>Github Repository</a></p>
+                    </li>
+                    <li>
+                        <p>Import the virtual machine into the hypervisor and run it</p>
+                    </li>
+                    <li>
+                        <p>After the machine boots, open your local browser and go to <a href="http://localhost/" target='_blank' rel='noopener noreferrer'>http://localhost/</a></p>
+                    </li>
+                </ul>
 
+            </div>
+
+            <div class="video-contain">
+                <video controls>
+                    <source src="assets/REPLACE.mp4" type="video/mp4">
+                    Your browser does not support the video tag
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="fluff-text site about">
+    <h2>Rights of Use</h2>
+    <p>
+        This project was developed as part of Christopher Newport University's Cybersecurity academic program is intended 
+        for educational use. Users are free to view, use and modify the material for learning purposes.
+    </p>
+    <p>
+        This project may not be sold or used for commercial purposes. Attribution to the original author is appreciated when 
+        sharing or modifying this work.
+    </p>
+    <p>
+        Ownership of this project may be subject institutional policies.
+    </p>
 </div>
 </html>
