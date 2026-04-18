@@ -227,13 +227,17 @@ video {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		padding: 10px;
 	}
 
 	.buttons-nav a {
+		flex: 1 1 auto;
 		margin: 5px;
+		text-align: center;
 	}
 
 	.main-content {
 		width: 100%;
+		display: block;
 	}
 }
