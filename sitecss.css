@@ -216,3 +216,24 @@ video {
 	max-width: 800px;
 	border-radius:8px;
 }
+
+@media (max-width: 768px) {
+	.section-split {
+		flex-direction: column;
+	}
+
+	.buttons-nav {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.buttons-nav a {
+		margin: 5px;
+	}
+
+	.main-content {
+		width: 100%;
+	}
+}
