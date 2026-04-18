@@ -162,7 +162,7 @@ main h2, main h3 {
 
 .section-split {
 	display: flex;
-	height: 160vh;
+	padding-bottom: 40px;
 }
 
 .buttons-nav {
@@ -239,6 +239,7 @@ video {
 	.main-content {
 		width: 100%;
 		display: block;
+		margin-bottom: 50px;
 	}
 
 	.main-inner {
